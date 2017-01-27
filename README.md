@@ -2,13 +2,13 @@
 
 Person 1: Andre Hijaouy
 
-Person 2:
+Person 2: Ben Geier
 
 Person 3:
 
 Person 4: Ladd Jones
 
-Person 5:
+Person 5: Gabriel Nakajima An
 
 Clone repo to desktop git clone https://github.com/walkman1915/CS2340-M2.git
 
