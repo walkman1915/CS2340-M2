@@ -8,6 +8,6 @@ jar {
                     'Class-Path' : '../../lib/resources.jar'
     }
 }
-dependences {
-    compile group: 'lib..resources.jar'
+dependencies {
+    compile files('./lib/resources.jar')
 }
