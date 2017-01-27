@@ -5,10 +5,21 @@ package edu.gatech.oad.antlab.person;
  *  returns their name and a
  *  modified string
  *
- *  @author Bob
+ *  @author Edwin Ladd Jones
  *  @version 1.1
  */
 public class Person4 {
+
+    public static void main(String[] args) {
+        String input = "abc123";
+        int i = 0;
+        String modString = "";
+        while(i <= input.length()) {
+            modString = modString + (input.charAt(i) + 1);
+            i++;
+        }
+        System.out.print(modString);
+    }
   /** Holds the persons real name */
   private String name;
     /**
@@ -31,7 +42,13 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-      return input;
+      int i = 0;
+      String modString = "";
+      while(i <= input.length()) {
+          modString = modString + (input.charAt(i) + 1);
+          i++;
+      }
+      return modString;
     }
 
     /**
