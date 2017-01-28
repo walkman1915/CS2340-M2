@@ -34,7 +34,7 @@ public class Person4 {
       //Person 4 put your implementation here
       int i = 0;
       String modString = "";
-      while(i <= input.length()) {
+      while(i < input.length()) {
           modString = modString + (input.charAt(i) + 1);
           i++;
       }
