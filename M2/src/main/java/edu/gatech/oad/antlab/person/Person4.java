@@ -10,16 +10,6 @@ package edu.gatech.oad.antlab.person;
  */
 public class Person4 {
 
-    public static void main(String[] args) {
-        String input = "abc123";
-        int i = 0;
-        String modString = "";
-        while(i <= input.length()) {
-            modString = modString + (input.charAt(i) + 1);
-            i++;
-        }
-        System.out.print(modString);
-    }
   /** Holds the persons real name */
   private String name;
     /**
