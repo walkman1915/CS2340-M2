@@ -7,8 +7,8 @@ dependencies {
 
 jar {
 	manifest {
-            'Implementation-Title' : 'Gradle build file',
-            'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain.java',
-            'Class-Path' : '../../lib/resources.jar'
+        attributes  'Implementation-Title' : 'Gradle build file',
+                    'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain.java',
+                    'Class-Path' : '../../lib/resources.jar'
 	}
 }
